@@ -36,3 +36,7 @@ section {
 blockquote footer div {
     font-size: 0.8rem;
 }
+
+#links {
+    padding-left: 10px;
+}

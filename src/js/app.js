@@ -2,7 +2,7 @@ const quotes = [
   {
     text: "Want you to get high\nWe want you to aim high",
     song: "Kinjitou",
-    song_url: 'https://youtu.be/_87mpz7-5a8',
+    youtube: '_87mpz7-5a8',
     writers: ["Reol", "Giga"]
   },
   {
@@ -15,7 +15,7 @@ const quotes = [
       "あの子に好かれたら　時を戻せたら\n" +
       "今よりきっと　ずっといいな",
     song: "GRIMOIRE",
-    song_url: '',
+    youtube: '',
     writers: ["Reol", "Giga"]
   },
 ]
@@ -26,8 +26,8 @@ function displayRandomQuote() {
   document.getElementById('quote').innerText = randomQuote.text
   document.getElementById('source').innerText = randomQuote.song
   document.getElementById('writers').innerText = randomQuote.writers.join(', ')
-  if (randomQuote.song_url) {
-    document.getElementById('sourceHref').setAttribute('href', randomQuote.song_url)
+  if (randomQuote.youtube) {
+    document.getElementById('links').innerHTML = `<a href="https://youtu.be/${randomQuote.youtube}" target="_blank"><i class="fab fa-youtube"/></a>`
   }
 }
 

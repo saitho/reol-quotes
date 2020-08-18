@@ -1,7 +1,14 @@
 devDependencies:
+  '@fortawesome/fontawesome-free': 5.14.0
   http-server: 0.12.3
 lockfileVersion: 5.1
 packages:
+  /@fortawesome/fontawesome-free/5.14.0:
+    dev: true
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-OfdMsF+ZQgdKHP9jUbmDcRrP0eX90XXrsXIdyjLbkmSBzmMXPABB8eobUJtivaupucYaByz6WNe1PI1JuYm3qA==
   /async/2.6.3:
     dependencies:
       lodash: 4.17.20
@@ -153,4 +160,5 @@ packages:
     resolution:
       integrity: sha1-WvIvGMBSoACkjXuCxenC4v7tpyg=
 specifiers:
+  '@fortawesome/fontawesome-free': ^5.14.0
   http-server: ^0.12.3
