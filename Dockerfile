@@ -11,7 +11,8 @@ RUN cp ./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-* ./src/w
 FROM alpine:3.12
 
 WORKDIR /var/www
-VOLUME /var/www
-COPY --from=builder /work/src .
+COPY --from=builder /work/src html
+
+VOLUME /var/www/html
 
 CMD tail -f /dev/null
