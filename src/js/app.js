@@ -100,16 +100,12 @@ const quotes = [
     writers: ["Reol"]
   },
   {
-    text: "It doesn't concern me at all\n" +
-      "What you're hurt by anymore\n" +
-      "I'll follow the sunrise,\n" +
-      "And still hate all that I'm blamed for",
-    text_jp: "あたしには少しも関係ない\n" +
-      "今のあなたが何に傷付つこうとも\n" +
-      "日の出を辿る、\n" +
-      "責められることも今や厭わない",
-    song: "Shinku Old Rose",
-    youtube: '99Oj7AFyS0E',
+    text: "This awareness that I speak not to a soul -\n" +
+      "I hide it away into the depths of concrete",
+    text_jp: "誰に言わぬこの意識は\n" +
+      "コンクリートの深くまで秘するのです",
+    song: "Q?",
+    youtube: 'oBTxxpYre3g',
     writers: ["Reol"]
   },
 ]
